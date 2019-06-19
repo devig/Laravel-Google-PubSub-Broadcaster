@@ -1,0 +1,31 @@
+{
+    "name": "whatdafox/laravel-google-pubsub-broadcaster",
+    "description": "Broadcast events to Google PubSub with Laravel",
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0",
+        "google/cloud-pubsub": "^1.13",
+        "illuminate/support": "~5.7.0|~5.8.0",
+        "illuminate/broadcasting": "~5.7.0|~5.8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valentin Prugnaud",
+            "email": "valentin@whatdafox.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WhatDaFox\\GoogleBroadcaster\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WhatDaFox\\GoogleBroadcaster\\GoogleBroadcasterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
