@@ -1,5 +1,5 @@
 {
-    "name": "whatdafox/laravel-google-pubsub-broadcaster",
+    "name": "devig/laravel-google-pubsub-broadcaster",
     "description": "Broadcast events to Google PubSub with Laravel",
     "type": "library",
     "require": {
